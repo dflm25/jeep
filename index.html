@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeep® - Official Jeep Site</title>
+    <meta
+      name="description"
+      content="A basic HTML template with best SEO practices."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.example.com" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Open Graph meta tags for better social media sharing -->
+    <meta property="og:title" content="Jeep® - Official Jeep Site" />
+    <meta
+      property="og:description"
+      content="A basic HTML template with best SEO practices."
+    />
+    <meta property="og:image" content="https://www.example.com/image.jpg" />
+    <meta property="og:url" content="https://www.example.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jeep® - Official Jeep Site" />
+    <meta
+      name="twitter:description"
+      content="A basic HTML template with best SEO practices."
+    />
+    <meta name="twitter:image" content="https://www.example.com/image.jpg" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a><img src="./assets/img/logo-jeep.avif" alt="Jeep logo" /></a>
+        <ul>
+          <li>
+            <a href="https://www.jeep.com/find-dealer.html">Find a dealer</a>
+          </li>
+          <li>
+            <a
+              href="https://e-shop.jeep.com/t1?ott=start-buying-process&refrel=jeep&vehicle_type=new&zipcode=07001&journey_id=a8688fb8-7664-6134-4853-f261e2f0aa1e-2024-0630-0444-59"
+              >Shop Online</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="banner" id="home">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="./assets/img/banner.jpeg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/img/banner.jpeg"
+          />
+          <img src="./assets/img/banner.jpeg" alt="Banner Image" />
+        </picture>
+
+        <div class="overlay-banner">
+          <h1>RESEARCH NEW MODELS BELOW</h1>
+        </div>
+      </section>
+      <section class="models">
+        <div class="container">
+          <h2>Jeep Models</h2>
+          <div class="image-grid">
+            <div class="grid-item">
+              <a
+                target="_blank"
+                href="https://www.jeep.com/grand-cherokee.html"
+              >
+                <img
+                  src="./assets/img/grand-cherokee.jpg"
+                  alt="New Jeep Grand Cherokee"
+                />
+                <div class="overlay">
+                  <h3>New Jeep Grand Cherokee</h3>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a target="_blank" href="https://www.jeep.com/compass.html">
+                <img
+                  src="./assets/img/compass.webp"
+                  alt="Description of Image 2 for SEO"
+                />
+                <div class="overlay">
+                  <h3>New Jeep Compass</h3>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a target="_blank" href="https://www.jeep.com/wrangler.html">
+                <img
+                  src="./assets/img/wrangler.jpg"
+                  alt="Description of Image 3 for SEO"
+                />
+                <div class="overlay">
+                  <h3>New Jeep Wrangler</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="checkout">
+        <div class="container">
+          <p>
+            Please feel free to check out our
+            <a
+              href="https://rm-test-khaki.vercel.app/#:~:text=Jeep%20incentives%20and%20offers"
+              class="jeep-link"
+              >Jeep incentives and offers</a
+            >
+            or for more information on Jeep, click on one of the following
+            buttons below.
+          </p>
+        </div>
+      </section>
+      <section class="links">
+        <div class="container">
+          <div class="link-grid">
+            <div class="link-item">
+              <a
+                target="_blank"
+                href="https://www.jeep.com/vehicle-selector.bmo.html"
+                class="btn-goto"
+                >Build Your Vehicle</a
+              >
+            </div>
+            <div class="link-item">
+              <a
+                target="_blank"
+                href="https://www.jeep.com/vehicle-selector.sni.html?app=sni"
+                class="btn-goto"
+                >Search Our Inventory</a
+              >
+            </div>
+            <div class="link-item">
+              <a
+                target="_blank"
+                href="https://www.jeep.com/jeep-life.html"
+                class="btn-goto"
+                >Jeep Life</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>© 2024 Jepp. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
